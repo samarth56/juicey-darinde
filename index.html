@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juicy Darinda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="jd.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <img src="img/jd.png" id="logo2" alt="">
+      <a href="#" id="ham"><img src="/img/icon-hamburger.svg" alt=""></a>
+      <ul class="navbar">
+        <li class="menubar"><a href="">Store</a></li>
+        <li class="menubar"><a href="">Products</a></li>
+        <li class="menubar"><img src="img/jd.png" id="logo" alt=""></li>
+        <li class="menubar"><a href=""> About Us</a></li>
+        <li class="menubar"><a href=""> Offers</a></li>
+      </ul>
+      <ul class="sideNav">
+        <a href="#section1">|</a>
+        <a href="#section2">|</a>
+        <a href="#section3">|</a>
+        <a href="#section4">|</a>
+        <a href="#section5">|</a>
+      </ul>
+    </nav>
+    <main class="container">
+      <section id="section1" class="section">
+        <span class="watermark">VERVE</span>
+        <div class="hero-img">
+          <img src="img/watermelon.png" alt="" class="product" />
+        </div>
+        <h1>JD - Watermelon juice</h1>
+        <div class="cart">
+          <button id="dec1"  class="dec">-</button>
+          <input type="text" class="quantity" value="10" id="qty1">
+          <button id="inc1"  class="inc">+</button>
+        </div>
+      </section>
+      <section id="section2" class="section">
+        <span class="watermark">VERVE</span>
+        <div class="hero-img" >
+          <img src="img/mango.png" alt="" class="product" />
+        </div>
+        <h1>JD - Mango juice</h1>
+        <div class="cart">
+          <button id="dec2"  class="dec">-</button>
+          <input type="text" class="quantity" value="10" id="qty2">
+          <button id="inc2"  class="inc">+</button>
+        </div>
+      </section>
+      <section id="section3" class="section">
+        <span class="watermark">VERVE</span>
+        <div class="hero-img">
+          <img src="img/red grape juice.png" alt="" class="product" />
+        </div>
+        <h1>JD - Red Grape juice</h1>
+        <div class="cart">
+          <button id="dec3"  class="dec">-</button>
+          <input type="text" class="quantity" value="10" id="qty3">
+          <button id="inc3"  class="inc">+</button>
+        </div>
+      </section>
+      <section id="section4" class="section">
+        <span class="watermark">VERVE</span>
+        <div class="hero-img">
+          <img src="img/lemon.png" alt="" class="product" />
+        </div>
+        <h1>JD - xyz juice</h1>
+        <div class="cart">
+          <button id="dec4"  class="dec">-</button>
+          <input type="text" class="quantity" value="10" id="qty4">
+          <button id="inc4"  class="inc">+</button>
+        </div>
+      </section>
+      <section id="section5" class="section">
+        <span class="watermark">VERVE</span>
+        <div class="hero-img">
+          <img src="img/lemon.png" alt="" class="product" />
+        </div>
+        <h1>JD - Lemon juice</h1>
+        <div class="cart">
+          <button id="dec5" class="dec">-</button>
+          <input type="text" class="quantity" value="10" id="qty5"> 
+          <button id="inc5" class="inc">+</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+    offset: 120,
+    duration:1000
+  });
+
+    </script>
+  
+  </body>
+</html>
